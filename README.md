@@ -1,4 +1,4 @@
-# ✈️ Smart Travel Recommendation System 2.0
+# ✈️ Smart Travel Recommendation System 
 
 An AI-powered travel recommendation web application built with Streamlit. Get personalized destination and hotel suggestions based on your budget and travel preferences, with real-time sentiment analysis.
 
@@ -25,8 +25,8 @@ An AI-powered travel recommendation web application built with Streamlit. Get pe
 
 ```bash
 # Clone the repository
-git clone https://github.com/Akshit000555/travel-system.git
-cd travel-system
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
 
 # Install dependencies
 pip install -r requirements.txt
@@ -41,9 +41,9 @@ The app will open at `http://localhost:8501`
 
 1. Go to [render.com](https://render.com) and sign in
 2. Click **New** → **Web Service**
-3. Connect your GitHub repository: `travel-system`
+3. Connect your GitHub repository
 4. Configure settings:
-   - **Name:** travel-recommender (or any name)
+   - **Name:** your-app-name
    - **Environment:** Python 3
    - **Build Command:** `pip install -r requirements.txt`
    - **Start Command:** `python -m streamlit run app.py --server.port=$PORT --server.address=0.0.0.0`
@@ -57,7 +57,7 @@ Your app will be live at `https://your-app-name.onrender.com`
 1. Go to [share.streamlit.io](https://share.streamlit.io)
 2. Sign in with GitHub
 3. Click **New app**
-4. Select repository: `Akshit000555/travel-system`
+4. Select your repository
 5. Set main file: `app.py`
 6. Click **Deploy**
 
@@ -94,7 +94,7 @@ The app uses three CSV files:
 ## 🛠️ Project Structure
 
 ```
-travel-system/
+project-folder/
 ├── app.py                 # Main application
 ├── requirements.txt       # Dependencies
 ├── destinations.csv       # Destinations data
