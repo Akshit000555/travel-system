@@ -2,7 +2,11 @@
 
 An AI-powered travel recommendation web application built with Streamlit. Get personalized destination and hotel suggestions based on your budget and travel preferences, with real-time sentiment analysis.
 
-## 🌟 Features
+## � Live Demo
+
+**[View Live Application](https://travel-system-fz4m.onrender.com)**
+
+## �🌟 Features
 
 - **Smart Recommendations** - AI-powered destination suggestions based on budget and travel type
 - **Hotel Listings** - Top-rated hotels with pricing and sentiment analysis
@@ -37,29 +41,6 @@ streamlit run app.py
 
 The app will open at `http://localhost:8501`
 
-## 🌐 Deploy on Render
-
-1. Go to [render.com](https://render.com) and sign in
-2. Click **New** → **Web Service**
-3. Connect your GitHub repository
-4. Configure settings:
-   - **Name:** your-app-name
-   - **Environment:** Python 3
-   - **Build Command:** `pip install -r requirements.txt`
-   - **Start Command:** `python -m streamlit run app.py --server.port=$PORT --server.address=0.0.0.0`
-5. Click **Create Web Service**
-6. Wait 2-3 minutes for deployment
-
-Your app will be live at `https://your-app-name.onrender.com`
-
-## 🎯 Deploy on Streamlit Cloud (Alternative)
-
-1. Go to [share.streamlit.io](https://share.streamlit.io)
-2. Sign in with GitHub
-3. Click **New app**
-4. Select your repository
-5. Set main file: `app.py`
-6. Click **Deploy**
 
 ## 📊 Dataset
 
