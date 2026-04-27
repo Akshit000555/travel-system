@@ -3,23 +3,61 @@ Goa,Goa,Beach,15000,95
 Andaman,Andaman,Beach,35000,90
 Pondicherry,Tamil Nadu,Beach,12000,80
 Kovalam,Kerala,Beach,18000,78
+Gokarna,Karnataka,Beach,10000,76
+Varkala,Kerala,Beach,11000,74
+Kanyakumari,Tamil Nadu,Beach,9000,72
+Vizag,Andhra Pradesh,Beach,13000,75
+Diu,Dadra and Nagar Haveli,Beach,10000,68
+Tarkarli,Maharashtra,Beach,9500,65
 Manali,Himachal Pradesh,Mountain,14000,92
 Shimla,Himachal Pradesh,Mountain,13000,88
 Leh-Ladakh,Ladakh,Mountain,40000,94
 Darjeeling,West Bengal,Mountain,16000,82
 Mussoorie,Uttarakhand,Mountain,15000,79
+Mcleodganj,Himachal Pradesh,Mountain,11000,81
+Nainital,Uttarakhand,Mountain,12000,80
+Kasol,Himachal Pradesh,Mountain,9000,77
+Valley of Flowers,Uttarakhand,Mountain,18000,83
+North Sikkim,Sikkim,Mountain,22000,79
+Tawang,Arunachal Pradesh,Mountain,20000,74
+Chopta,Uttarakhand,Mountain,10000,70
+Ziro,Arunachal Pradesh,Mountain,15000,66
 Mumbai,Maharashtra,City,20000,90
 Delhi,Delhi,City,18000,93
 Bangalore,Karnataka,City,17000,85
 Jaipur,Rajasthan,City,16000,89
 Kolkata,West Bengal,City,14000,80
+Hyderabad,Telangana,City,15000,84
+Chennai,Tamil Nadu,City,16000,82
+Pune,Maharashtra,City,14000,78
+Ahmedabad,Gujarat,City,13000,76
+Chandigarh,Punjab,City,12000,73
+Kochi,Kerala,City,15000,81
 Rishikesh,Uttarakhand,Adventure,12000,87
 Bir Billing,Himachal Pradesh,Adventure,18000,83
 Auli,Uttarakhand,Adventure,22000,81
 Spiti Valley,Himachal Pradesh,Adventure,30000,86
+Ranthambore,Rajasthan,Adventure,28000,85
+Jim Corbett,Uttarakhand,Adventure,25000,84
+Kaziranga,Assam,Adventure,20000,80
+Bandhavgarh,Madhya Pradesh,Adventure,22000,78
+Coorg,Karnataka,Adventure,16000,79
+Hampi,Karnataka,Adventure,11000,82
 Udaipur,Rajasthan,Romantic,25000,91
 Srinagar,Jammu & Kashmir,Romantic,28000,89
 Ooty,Tamil Nadu,Romantic,17000,84
 Munnar,Kerala,Romantic,19000,86
-Coorg,Karnataka,Romantic,16000,82
 Alleppey,Kerala,Romantic,21000,88
+Agra,Uttar Pradesh,Romantic,20000,92
+Jodhpur,Rajasthan,Romantic,18000,83
+Jaisalmer,Rajasthan,Romantic,22000,85
+Varanasi,Uttar Pradesh,Pilgrimage,12000,88
+Amritsar,Punjab,Pilgrimage,11000,87
+Tirupati,Andhra Pradesh,Pilgrimage,10000,85
+Haridwar,Uttarakhand,Pilgrimage,9000,83
+Bodh Gaya,Bihar,Pilgrimage,10000,78
+Shirdi,Maharashtra,Pilgrimage,9000,80
+Puri,Odisha,Pilgrimage,11000,79
+Khajuraho,Madhya Pradesh,Heritage,14000,77
+Rann of Kutch,Gujarat,Heritage,18000,81
+Majuli,Assam,Heritage,13000,65
