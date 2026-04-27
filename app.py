@@ -34,15 +34,16 @@ def load_data():
 @st.cache_data
 def train_models():
     df = pd.read_csv("destinations.csv")
+    # Predict Type (7 classes) — meaningful accuracy with this dataset size
     le_type = LabelEncoder()
-    le_name = LabelEncoder()
     df["Type_enc"] = le_type.fit_transform(df["Type"])
-    df["Name_enc"] = le_name.fit_transform(df["Name"])
-    X = df[["Budget", "Popularity", "Type_enc"]]
-    y = df["Name_enc"]
+    # Budget range feature
+    df["Budget_range"] = pd.cut(df["Budget"], bins=3, labels=[0, 1, 2]).astype(int)
+    X = df[["Budget", "Popularity", "Budget_range"]]
+    y = df["Type_enc"]
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     models = {
-        "Decision Tree": DecisionTreeClassifier(random_state=42),
+        "Decision Tree": DecisionTreeClassifier(max_depth=4, random_state=42),
         "Random Forest": RandomForestClassifier(n_estimators=100, random_state=42),
         "KNN": KNeighborsClassifier(n_neighbors=3),
     }
@@ -51,10 +52,10 @@ def train_models():
         model.fit(X_train, y_train)
         acc = accuracy_score(y_test, model.predict(X_test))
         results[name] = {"model": model, "accuracy": acc}
-    return results, le_type, le_name
+    return results, le_type
 
 destinations_df, hotels_df = load_data()
-trained_models, le_type, le_name = train_models()
+trained_models, le_type = train_models()
 
 with st.sidebar:
     st.markdown("### ✈️ Travel Preferences")
@@ -129,37 +130,42 @@ with t2:
 
 with t3:
     st.markdown("### 🤖 Model Predictions")
-    st.markdown("Each model predicts the best destination based on your inputs from the sidebar.")
+    st.markdown("Each model predicts the best travel type and top destination based on your budget from the sidebar.")
 
-    try:
-        type_enc = le_type.transform([travel_type])[0]
-    except ValueError:
-        type_enc = 0
-
-    # Use median popularity as a neutral value for prediction
+    budget_range = 0 if budget < 20000 else (1 if budget < 35000 else 2)
     avg_pop = int(destinations_df["Popularity"].median())
-    input_data = [[budget, avg_pop, type_enc]]
+    input_data = [[budget, avg_pop, budget_range]]
 
     mc1, mc2, mc3 = st.columns(3)
     model_cols = [mc1, mc2, mc3]
     colors = ["#667eea", "#764ba2", "#f093fb"]
 
     for i, (model_name, info) in enumerate(trained_models.items()):
-        pred_enc = info["model"].predict(input_data)[0]
         try:
-            pred_name = le_name.inverse_transform([pred_enc])[0]
+            pred_enc = info["model"].predict(input_data)[0]
+            pred_type = le_type.inverse_transform([pred_enc])[0]
+            # Find top destination of predicted type within budget
+            match = destinations_df[
+                (destinations_df["Type"] == pred_type) &
+                (destinations_df["Budget"] <= budget)
+            ].sort_values("Popularity", ascending=False)
+            pred_dest = match.iloc[0]["Name"] if not match.empty else pred_type
         except Exception:
-            pred_name = "Unknown"
-        acc = info["accuracy"] * 100
+            pred_type = "N/A"
+            pred_dest = "N/A"
 
+        acc = info["accuracy"] * 100
         with model_cols[i]:
             st.markdown(
                 f"""<div style="background:linear-gradient(135deg,{colors[i]},#764ba2);
                 color:#fff;padding:1.5rem;border-radius:15px;text-align:center;">
                 <h4 style="margin:0;font-size:1rem">{model_name}</h4>
-                <h2 style="margin:.5rem 0">{pred_name}</h2>
-                <p style="margin:0;opacity:.85;font-size:.9rem">Accuracy</p>
-                <h3 style="margin:0">{acc:.1f}%</h3>
+                <p style="margin:.4rem 0 0;opacity:.85;font-size:.85rem">Predicted Type</p>
+                <h3 style="margin:.2rem 0">{pred_type}</h3>
+                <p style="margin:.4rem 0 0;opacity:.85;font-size:.85rem">Top Destination</p>
+                <h2 style="margin:.2rem 0;font-size:1.2rem">{pred_dest}</h2>
+                <p style="margin:.6rem 0 0;opacity:.85;font-size:.85rem">Model Accuracy</p>
+                <h3 style="margin:.2rem 0">{acc:.1f}%</h3>
                 </div>""",
                 unsafe_allow_html=True
             )
@@ -167,12 +173,12 @@ with t3:
     st.markdown("<br>", unsafe_allow_html=True)
     acc_df = pd.DataFrame({
         "Model": list(trained_models.keys()),
-        "Accuracy (%)": [v["accuracy"]*100 for v in trained_models.values()]
+        "Accuracy (%)": [v["accuracy"] * 100 for v in trained_models.values()]
     })
     fig3 = px.bar(acc_df, x="Model", y="Accuracy (%)", color="Model",
-                  color_discrete_sequence=["#667eea","#764ba2","#f093fb"],
+                  color_discrete_sequence=["#667eea", "#764ba2", "#f093fb"],
                   text_auto=".1f")
-    fig3.update_layout(height=300, showlegend=False, yaxis_range=[0,100])
+    fig3.update_layout(height=300, showlegend=False, yaxis_range=[0, 100])
     st.plotly_chart(fig3, use_container_width=True)
 
 st.markdown("---")
