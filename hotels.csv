@@ -1,0 +1,175 @@
+Hotel,Location,Type,Rating,Price,Segment,Sentiment
+Marriott Goa,Goa,Beach,4.5,23841,Luxury,Positive
+Lemon Tree Goa,Goa,Beach,3.2,11977,Mid-range,Positive
+Hyatt Goa,Goa,Beach,4.4,15626,Luxury,Positive
+Oberoi Goa,Goa,Beach,4.9,18466,Luxury,Positive
+Hilton Goa,Goa,Beach,3.6,5810,Mid-range,Positive
+Hilton Goa,Goa,Beach,4.0,2041,Budget,Positive
+Hilton Goa,Goa,Beach,3.5,24383,Luxury,Positive
+Sarovar Goa,Goa,Beach,4.0,6192,Mid-range,Positive
+Hyatt Andaman,Andaman,Beach,3.3,15777,Luxury,Positive
+Marriott Andaman,Andaman,Beach,4.1,23641,Luxury,Positive
+FabHotel Andaman,Andaman,Beach,4.4,3795,Budget,Positive
+Lemon Tree Andaman,Andaman,Beach,4.7,15834,Luxury,Positive
+Taj Andaman,Andaman,Beach,4.3,7581,Mid-range,Positive
+Radisson Andaman,Andaman,Beach,4.1,6386,Mid-range,Positive
+Oberoi Andaman,Andaman,Beach,4.9,19715,Luxury,Negative
+Sarovar Andaman,Andaman,Beach,3.7,18590,Luxury,Positive
+Treebo Pondicherry,Pondicherry,Beach,4.7,24087,Luxury,Neutral
+Ginger Pondicherry,Pondicherry,Beach,3.7,20975,Luxury,Positive
+Hilton Pondicherry,Pondicherry,Beach,3.6,7985,Mid-range,Positive
+Treebo Pondicherry,Pondicherry,Beach,4.5,24691,Luxury,Positive
+OYO Premium Pondicherry,Pondicherry,Beach,3.4,1830,Budget,Neutral
+ITC Pondicherry,Pondicherry,Beach,3.1,19624,Luxury,Positive
+Treebo Pondicherry,Pondicherry,Beach,4.7,23001,Luxury,Positive
+Taj Pondicherry,Pondicherry,Beach,3.6,2993,Budget,Positive
+ITC Pondicherry,Pondicherry,Beach,3.5,15395,Luxury,Positive
+Hyatt Kovalam,Kovalam,Beach,4.7,24335,Luxury,Neutral
+Lemon Tree Kovalam,Kovalam,Beach,4.0,19617,Luxury,Positive
+Ginger Kovalam,Kovalam,Beach,3.9,4105,Mid-range,Positive
+Lemon Tree Kovalam,Kovalam,Beach,4.1,12671,Luxury,Neutral
+Hyatt Kovalam,Kovalam,Beach,3.8,7358,Mid-range,Neutral
+Marriott Kovalam,Kovalam,Beach,4.2,23657,Luxury,Neutral
+Hilton Kovalam,Kovalam,Beach,4.6,23347,Luxury,Neutral
+Radisson Kovalam,Kovalam,Beach,3.4,12228,Luxury,Positive
+Leela Manali,Manali,Mountain,3.2,9122,Mid-range,Positive
+Sarovar Manali,Manali,Mountain,3.5,4086,Mid-range,Positive
+Marriott Manali,Manali,Mountain,3.6,9785,Mid-range,Positive
+Leela Manali,Manali,Mountain,3.4,11309,Mid-range,Positive
+Hilton Manali,Manali,Mountain,3.3,7236,Mid-range,Positive
+OYO Premium Manali,Manali,Mountain,3.7,18020,Luxury,Negative
+Marriott Manali,Manali,Mountain,4.4,7301,Mid-range,Neutral
+Taj Shimla,Shimla,Mountain,3.5,24946,Luxury,Negative
+Hilton Shimla,Shimla,Mountain,3.6,2709,Budget,Negative
+ITC Shimla,Shimla,Mountain,4.1,17496,Luxury,Positive
+Radisson Shimla,Shimla,Mountain,4.3,7188,Mid-range,Neutral
+Leela Shimla,Shimla,Mountain,4.6,7190,Mid-range,Positive
+Oberoi Shimla,Shimla,Mountain,4.1,16387,Luxury,Positive
+Treebo Leh-Ladakh,Leh-Ladakh,Mountain,3.4,9038,Mid-range,Positive
+Marriott Leh-Ladakh,Leh-Ladakh,Mountain,3.4,9160,Mid-range,Neutral
+Ginger Leh-Ladakh,Leh-Ladakh,Mountain,4.3,6822,Mid-range,Positive
+Taj Leh-Ladakh,Leh-Ladakh,Mountain,4.0,10842,Mid-range,Neutral
+Leela Leh-Ladakh,Leh-Ladakh,Mountain,3.2,9515,Mid-range,Negative
+Sarovar Leh-Ladakh,Leh-Ladakh,Mountain,3.5,17850,Luxury,Positive
+Treebo Darjeeling,Darjeeling,Mountain,3.5,13640,Luxury,Negative
+Sarovar Darjeeling,Darjeeling,Mountain,4.8,22584,Luxury,Neutral
+Treebo Darjeeling,Darjeeling,Mountain,4.4,8053,Mid-range,Neutral
+Marriott Darjeeling,Darjeeling,Mountain,4.6,22346,Luxury,Neutral
+Leela Darjeeling,Darjeeling,Mountain,4.6,23487,Luxury,Neutral
+Sarovar Darjeeling,Darjeeling,Mountain,3.2,1716,Budget,Neutral
+Novotel Darjeeling,Darjeeling,Mountain,3.6,8172,Mid-range,Positive
+ITC Darjeeling,Darjeeling,Mountain,3.4,16821,Luxury,Neutral
+Taj Darjeeling,Darjeeling,Mountain,3.4,13106,Luxury,Positive
+Lemon Tree Mussoorie,Mussoorie,Mountain,3.6,18442,Luxury,Positive
+Leela Mussoorie,Mussoorie,Mountain,3.5,10141,Mid-range,Positive
+Radisson Mussoorie,Mussoorie,Mountain,4.0,24503,Luxury,Negative
+Leela Mussoorie,Mussoorie,Mountain,4.0,20178,Luxury,Positive
+Taj Mussoorie,Mussoorie,Mountain,4.4,6088,Mid-range,Positive
+ITC Mussoorie,Mussoorie,Mountain,3.1,19561,Luxury,Negative
+Sarovar Mussoorie,Mussoorie,Mountain,4.8,23917,Luxury,Positive
+Treebo Mussoorie,Mussoorie,Mountain,3.7,23897,Luxury,Positive
+Ginger Mussoorie,Mussoorie,Mountain,4.7,24145,Luxury,Positive
+Lemon Tree Mumbai,Mumbai,City,4.0,7809,Mid-range,Positive
+FabHotel Mumbai,Mumbai,City,4.4,23499,Luxury,Positive
+OYO Premium Mumbai,Mumbai,City,4.3,6409,Mid-range,Positive
+Ginger Mumbai,Mumbai,City,4.8,13680,Luxury,Neutral
+Taj Mumbai,Mumbai,City,4.4,4710,Mid-range,Positive
+FabHotel Mumbai,Mumbai,City,4.6,20519,Luxury,Negative
+Hilton Delhi,Delhi,City,4.0,13516,Luxury,Neutral
+Taj Delhi,Delhi,City,3.8,3167,Budget,Positive
+ITC Delhi,Delhi,City,3.8,9442,Mid-range,Positive
+Lemon Tree Delhi,Delhi,City,3.7,17292,Luxury,Positive
+Sarovar Delhi,Delhi,City,4.2,8233,Mid-range,Positive
+Marriott Delhi,Delhi,City,3.6,2412,Budget,Positive
+Taj Bangalore,Bangalore,City,3.5,20954,Luxury,Negative
+Lemon Tree Bangalore,Bangalore,City,3.1,3505,Budget,Positive
+Ginger Bangalore,Bangalore,City,3.3,17938,Luxury,Positive
+Oberoi Bangalore,Bangalore,City,3.6,13633,Luxury,Neutral
+Ginger Bangalore,Bangalore,City,4.5,11687,Mid-range,Positive
+FabHotel Bangalore,Bangalore,City,4.7,24122,Luxury,Neutral
+Taj Jaipur,Jaipur,City,3.3,5572,Mid-range,Positive
+Sarovar Jaipur,Jaipur,City,3.4,3706,Budget,Negative
+Taj Jaipur,Jaipur,City,4.5,23939,Luxury,Positive
+Radisson Jaipur,Jaipur,City,3.1,18655,Luxury,Positive
+ITC Jaipur,Jaipur,City,3.0,19309,Luxury,Positive
+Hyatt Jaipur,Jaipur,City,3.6,3712,Budget,Negative
+Hilton Kolkata,Kolkata,City,4.5,1903,Budget,Neutral
+Marriott Kolkata,Kolkata,City,3.9,5570,Mid-range,Positive
+FabHotel Kolkata,Kolkata,City,4.8,23804,Luxury,Positive
+FabHotel Kolkata,Kolkata,City,4.0,16207,Luxury,Negative
+Hyatt Kolkata,Kolkata,City,4.2,17573,Luxury,Negative
+Oberoi Kolkata,Kolkata,City,4.2,2123,Budget,Negative
+Hilton Rishikesh,Rishikesh,Adventure,4.3,10621,Mid-range,Positive
+ITC Rishikesh,Rishikesh,Adventure,4.3,20785,Luxury,Neutral
+OYO Premium Rishikesh,Rishikesh,Adventure,3.4,22775,Luxury,Positive
+Ginger Rishikesh,Rishikesh,Adventure,3.1,10365,Mid-range,Neutral
+Lemon Tree Rishikesh,Rishikesh,Adventure,3.6,3172,Budget,Neutral
+FabHotel Rishikesh,Rishikesh,Adventure,3.5,9504,Mid-range,Positive
+FabHotel Rishikesh,Rishikesh,Adventure,4.3,17873,Luxury,Negative
+Marriott Rishikesh,Rishikesh,Adventure,4.9,11321,Mid-range,Positive
+Hyatt Rishikesh,Rishikesh,Adventure,4.6,19139,Luxury,Negative
+Marriott Bir Billing,Bir Billing,Adventure,4.6,10242,Mid-range,Positive
+Sarovar Bir Billing,Bir Billing,Adventure,3.5,14703,Luxury,Neutral
+Lemon Tree Bir Billing,Bir Billing,Adventure,3.2,19231,Luxury,Negative
+Sarovar Bir Billing,Bir Billing,Adventure,3.8,13169,Luxury,Positive
+ITC Bir Billing,Bir Billing,Adventure,3.0,10646,Mid-range,Negative
+Hilton Bir Billing,Bir Billing,Adventure,4.9,9840,Mid-range,Neutral
+Marriott Bir Billing,Bir Billing,Adventure,4.3,14975,Luxury,Positive
+ITC Bir Billing,Bir Billing,Adventure,4.1,15657,Luxury,Positive
+Hyatt Bir Billing,Bir Billing,Adventure,4.6,20102,Luxury,Positive
+FabHotel Auli,Auli,Adventure,4.1,2852,Budget,Positive
+Lemon Tree Auli,Auli,Adventure,4.4,14329,Luxury,Negative
+Treebo Auli,Auli,Adventure,4.2,19395,Luxury,Positive
+Lemon Tree Auli,Auli,Adventure,3.4,11513,Mid-range,Positive
+Leela Auli,Auli,Adventure,3.2,18096,Luxury,Positive
+ITC Auli,Auli,Adventure,4.7,15160,Luxury,Negative
+Taj Auli,Auli,Adventure,5.0,23760,Luxury,Neutral
+Hilton Spiti Valley,Spiti Valley,Adventure,4.6,3462,Budget,Positive
+Leela Spiti Valley,Spiti Valley,Adventure,3.7,7345,Mid-range,Positive
+Novotel Spiti Valley,Spiti Valley,Adventure,3.9,1766,Budget,Positive
+Hilton Spiti Valley,Spiti Valley,Adventure,4.6,19529,Luxury,Neutral
+ITC Spiti Valley,Spiti Valley,Adventure,4.9,15209,Luxury,Positive
+Taj Spiti Valley,Spiti Valley,Adventure,4.1,3447,Budget,Positive
+FabHotel Spiti Valley,Spiti Valley,Adventure,4.9,1785,Budget,Positive
+Radisson Udaipur,Udaipur,Romantic,4.8,23229,Luxury,Positive
+ITC Udaipur,Udaipur,Romantic,4.0,24278,Luxury,Neutral
+Sarovar Udaipur,Udaipur,Romantic,5.0,8420,Mid-range,Neutral
+ITC Udaipur,Udaipur,Romantic,3.1,22677,Luxury,Positive
+OYO Premium Udaipur,Udaipur,Romantic,3.2,10771,Mid-range,Positive
+FabHotel Udaipur,Udaipur,Romantic,3.9,5920,Mid-range,Positive
+Hilton Srinagar,Srinagar,Romantic,4.9,3326,Budget,Negative
+Radisson Srinagar,Srinagar,Romantic,3.6,2259,Budget,Positive
+Novotel Srinagar,Srinagar,Romantic,3.3,17591,Luxury,Negative
+Novotel Srinagar,Srinagar,Romantic,3.8,23602,Luxury,Positive
+Treebo Srinagar,Srinagar,Romantic,4.9,11328,Mid-range,Negative
+Novotel Srinagar,Srinagar,Romantic,3.8,5373,Mid-range,Neutral
+Oberoi Srinagar,Srinagar,Romantic,3.3,24700,Luxury,Positive
+Treebo Ooty,Ooty,Romantic,4.7,24292,Luxury,Neutral
+Oberoi Ooty,Ooty,Romantic,3.3,2365,Budget,Positive
+Lemon Tree Ooty,Ooty,Romantic,4.6,21820,Luxury,Negative
+Radisson Ooty,Ooty,Romantic,4.2,22959,Luxury,Neutral
+FabHotel Ooty,Ooty,Romantic,3.5,21466,Luxury,Positive
+Sarovar Ooty,Ooty,Romantic,3.5,7408,Mid-range,Positive
+Taj Ooty,Ooty,Romantic,4.2,17284,Luxury,Positive
+OYO Premium Ooty,Ooty,Romantic,4.0,2021,Budget,Positive
+Leela Munnar,Munnar,Romantic,4.6,8732,Mid-range,Negative
+Sarovar Munnar,Munnar,Romantic,3.8,22101,Luxury,Positive
+Ginger Munnar,Munnar,Romantic,4.6,11382,Mid-range,Neutral
+Leela Munnar,Munnar,Romantic,3.3,6504,Mid-range,Positive
+Radisson Munnar,Munnar,Romantic,4.3,15790,Luxury,Positive
+ITC Munnar,Munnar,Romantic,3.7,22747,Luxury,Positive
+OYO Premium Munnar,Munnar,Romantic,3.6,22896,Luxury,Positive
+Taj Munnar,Munnar,Romantic,3.3,23813,Luxury,Negative
+Taj Coorg,Coorg,Romantic,3.9,7568,Mid-range,Negative
+Hyatt Coorg,Coorg,Romantic,3.4,9664,Mid-range,Positive
+Leela Coorg,Coorg,Romantic,3.3,3282,Budget,Positive
+Ginger Coorg,Coorg,Romantic,4.4,10907,Mid-range,Positive
+Marriott Coorg,Coorg,Romantic,4.8,9623,Mid-range,Positive
+Novotel Coorg,Coorg,Romantic,4.2,24368,Luxury,Positive
+Hyatt Coorg,Coorg,Romantic,3.6,5469,Mid-range,Positive
+Radisson Alleppey,Alleppey,Romantic,3.9,4334,Mid-range,Positive
+Oberoi Alleppey,Alleppey,Romantic,3.7,4525,Mid-range,Positive
+FabHotel Alleppey,Alleppey,Romantic,4.3,20286,Luxury,Positive
+Sarovar Alleppey,Alleppey,Romantic,3.8,5188,Mid-range,Positive
+Marriott Alleppey,Alleppey,Romantic,4.5,20445,Luxury,Positive
+Ginger Alleppey,Alleppey,Romantic,4.8,14109,Luxury,Positive

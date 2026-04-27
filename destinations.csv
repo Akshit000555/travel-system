@@ -1,0 +1,25 @@
+Name,State,Type,Budget,Popularity
+Goa,Goa,Beach,15000,95
+Andaman,Andaman,Beach,35000,90
+Pondicherry,Tamil Nadu,Beach,12000,80
+Kovalam,Kerala,Beach,18000,78
+Manali,Himachal Pradesh,Mountain,14000,92
+Shimla,Himachal Pradesh,Mountain,13000,88
+Leh-Ladakh,Ladakh,Mountain,40000,94
+Darjeeling,West Bengal,Mountain,16000,82
+Mussoorie,Uttarakhand,Mountain,15000,79
+Mumbai,Maharashtra,City,20000,90
+Delhi,Delhi,City,18000,93
+Bangalore,Karnataka,City,17000,85
+Jaipur,Rajasthan,City,16000,89
+Kolkata,West Bengal,City,14000,80
+Rishikesh,Uttarakhand,Adventure,12000,87
+Bir Billing,Himachal Pradesh,Adventure,18000,83
+Auli,Uttarakhand,Adventure,22000,81
+Spiti Valley,Himachal Pradesh,Adventure,30000,86
+Udaipur,Rajasthan,Romantic,25000,91
+Srinagar,Jammu & Kashmir,Romantic,28000,89
+Ooty,Tamil Nadu,Romantic,17000,84
+Munnar,Kerala,Romantic,19000,86
+Coorg,Karnataka,Romantic,16000,82
+Alleppey,Kerala,Romantic,21000,88
